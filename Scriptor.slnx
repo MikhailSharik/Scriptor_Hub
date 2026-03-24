@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/Scriptor.Agent/Scriptor.Agent.csproj" />
+  <Project Path="src/Scriptor.Core/Scriptor.Core.csproj" />
+  <Project Path="src/Scriptor.Manager/Scriptor.Manager.csproj" />
+</Solution>

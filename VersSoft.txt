@@ -1,0 +1,30 @@
+Используеться в проекте:
+SDK								6.0.428 [C:\Program Files\dotnet\sdk]
+SDK								6.0.136 [C:\Program Files\dotnet\sdk]
+
+Microsoft.AspNetCore.App		6.0.36 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.NETCore.App			6.0.36 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.WindowsDesktop.App	6.0.36 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Установленное ПО:
+6.0.136 [C:\Program Files\dotnet\sdk]
+6.0.428 [C:\Program Files\dotnet\sdk]
+10.0.201 [C:\Program Files\dotnet\sdk]
+
+Microsoft.AspNetCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 8.0.25 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 10.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+
+Microsoft.NETCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 8.0.25 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 10.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+
+Microsoft.WindowsDesktop.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+Microsoft.WindowsDesktop.App 8.0.25 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+Microsoft.WindowsDesktop.App 10.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Когда создаешь проект, то по умолчанию используется последняя версия SDK, которая установлена на компьютере.
+В данном случае, если использовать команду `dotnet new console` или `dotnet new winforms`, то будет создан проект с использованием SDK версии 10.0.201,
+так как она является последней установленной версией.
+dotnet new console -f net6.0
+dotnet new winforms -f net6.0
