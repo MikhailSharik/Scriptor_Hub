@@ -1,0 +1,18 @@
+{
+  "agent_id": "abc-123",
+  "status": "running",
+  "last_seen": "2026-03-24T12:00:00",
+  "logs_level": "info",
+  "scripts": [
+    {
+      "name": "install_git",
+      "status": "success",
+      "last_run": "2026-03-24T11:50:00"
+    },
+    {
+      "name": "set_env",
+      "status": "failed",
+      "error": "permission denied"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "agent_id": "abc-123",
+  "meta": {
+    "object_name": "Отделение 12",
+    "object_id": "UGD-12",
+    "pc_name": "UGD-12-abc-123",
+    "user": "admin"
+  },
+  "roles": [ "terminal" ],
+  "custom_scripts": []
+}

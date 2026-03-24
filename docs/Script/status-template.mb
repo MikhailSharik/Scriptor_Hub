@@ -1,0 +1,6 @@
+Поля:
+Task → название задачи
+Status → success / warning / error
+Message → текстовое описание
+Timestamp → время выполнения
+Errors → массив ошибок, если есть
